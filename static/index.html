@@ -14,7 +14,7 @@ var count=0;
 function webClick(){
     var data={
     desc:document.getElementById("web_box").value,
-    time:"00:00",
+    time:Date(),
     courseCode:"SE3316"
 };
 var enc= new URLSearchParams(data);
@@ -34,7 +34,7 @@ var fetchData={
 function netClick(){
     var data={
     desc:document.getElementById("net_box").value,
-    time:"00:00",
+    time:Date(),
     courseCode:"ECE4436"
 };
 var enc= new URLSearchParams(data);
